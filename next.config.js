@@ -2,9 +2,9 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        protocol: "http",
-        hostname: "127.0.0.1",
-        port: "8000",
+        protocol: "https",
+        hostname: "inhalink-1995154e4ee2.herokuapp.com",
+        port: "",
         pathname: "/media/**",
       },
     ],
