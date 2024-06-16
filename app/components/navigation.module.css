@@ -1,0 +1,61 @@
+.nav {
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.64);
+  z-index: 10;
+  backdrop-filter: blur(20px);
+  min-width: 37rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  color: rgb(67, 67, 67);
+}
+.nav li {
+  font-size: 35px;
+  width: 5rem;
+  padding: 0 0.2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.nav li:hover {
+  background-color: rgb(230, 230, 230);
+}
+.nav > div {
+  display: flex;
+  justify-content: space-between;
+}
+.nav a {
+  width: 100%;
+  height: 100%;
+}
+.nav a > div {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__btn > a {
+  height: fit-content;
+}
+.login__btn button {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-family: "KCC-Hanbit";
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+}
+.login__btn button:hover {
+  background-color: rgb(70, 70, 70);
+}

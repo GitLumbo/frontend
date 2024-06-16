@@ -1,0 +1,28 @@
+.layout {
+  background-color: whitesmoke;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.layout > a {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+}
+.header {
+  font-family: "KCC-Hanbit";
+  display: inherit;
+  align-items: inherit;
+}
+.header h1 {
+  margin-left: 1rem;
+}
+.layout footer {
+  margin-top: 6rem;
+  padding-top: 1rem;
+  border-top: 0.1em solid rgb(198, 198, 198);
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input[type="text"] {
+  height: 2rem;
+  font-family: "KCC-Hanbit";
+  font-size: 1rem;
+  border: 0.1rem dotted grey;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+.form input[type="text"]:focus {
+  outline: none;
+  border-color: orange;
+}
+.form input[type="file"] {
+  margin-bottom: 1rem;
+}
+.form button {
+  height: 2rem;
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: 0.2rem;
+  background-color: rgb(83, 83, 83);
+  color: white;
+  cursor: pointer;
+  font-family: "KCC-Hanbit";
+}
+.form button:hover {
+  background-color: rgb(100, 100, 100);
+}

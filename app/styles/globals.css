@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "NotoSansKR-VariableFont_wght";
+  letter-spacing: -1px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+@font-face {
+  font-family: "NotoSansKR-VariableFont_wght";
+  src: url("/fonts/NotoSansKR-VariableFont_wght.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSansKR-Bold";
+  src: url("/fonts/NotoSansKR-Bold.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

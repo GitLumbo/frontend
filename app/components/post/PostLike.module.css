@@ -1,0 +1,23 @@
+.post__likes {
+  display: flex;
+  align-items: center;
+  color: grey;
+  margin-top: 0.5rem;
+  width: fit-content;
+  font-size: 12pt;
+}
+
+.post__likes > div:hover {
+  color: black;
+}
+.post__likes > div {
+  margin-right: 0.2rem;
+  display: inherit;
+  cursor: pointer;
+}
+.likes {
+  color: red;
+}
+.likes > div:hover {
+  color: rgb(255, 49, 49);
+}

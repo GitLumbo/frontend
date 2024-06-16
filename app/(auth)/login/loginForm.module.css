@@ -1,0 +1,37 @@
+.input__form {
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.input__form > input {
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 0.1rem dotted grey;
+  outline: none;
+}
+.input__form > input:focus {
+  border-color: orange;
+}
+.login__form h2 {
+  text-align: center;
+}
+.login__btn {
+  width: 100%;
+  font-size: 1rem;
+  font-family: "KCC-Hanbit";
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: rgb(100, 100, 100);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.login__btn:hover {
+  background-color: rgb(110, 110, 110);
+}
+.auth__link {
+  color: blueviolet;
+  text-decoration: underline;
+}
