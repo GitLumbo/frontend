@@ -4,7 +4,7 @@ import UserContext from "@/app/components/UserContext";
 import Image from "next/image";
 import Posts from "@/app/components/post/posts";
 import styles from "./profilePage.module.css";
-import EditBtn from "./EditBtn";
+import EditBtn from "./editBtn";
 import {
   fetchProfileData,
   fetchPostsData,
